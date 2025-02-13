@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void findCubes(int *arr, int size) {
-    int i, j;  // Declare loop variables at the beginning
+    int i, j;  
     printf("Cubes of all elements:\n");
     
     for (i = 0; i < size; i++) {
@@ -14,7 +14,7 @@ void findCubes(int *arr, int size) {
 }
 
 int main() {
-    int size, i, j;  // Declare loop variables at the beginning
+    int size, i, j;  
 
     printf("Enter array's size: ");
     scanf("%d", &size);
